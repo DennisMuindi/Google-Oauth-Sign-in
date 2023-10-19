@@ -15,16 +15,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.papadennis.googlesignin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.papadennis.googlesignin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "scheme":"papa"
   }
 }
